@@ -8,6 +8,17 @@ header {
   /*align-items: center;*/
 }
 
+h1 {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 65px;
+  margin-top: 40px;
+}
+
+span {
+  color: #ff5d5d;
+}
+
 /*img {
   display: flex;
 }*/
