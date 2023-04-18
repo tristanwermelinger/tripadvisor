@@ -1,0 +1,17 @@
+/*GENERAL---*/
+
+header {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+/*--- HEADER ---*/
+.logoimg {
+  width: 191px;
+}
+.search {
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+}
