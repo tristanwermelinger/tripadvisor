@@ -1,16 +1,16 @@
 /*GENERAL---*/
 
-header {
+header img {
   display: flex;
   margin-top: 40px;
-  flex-direction: row;
+  /*flex-direction: row;*/
   justify-content: space-between;
-  align-items: center;
+  /*align-items: center;*/
 }
 
-img {
+/*img {
   display: flex;
-}
+}*/
 
 body {
   line-height: 3;
@@ -26,24 +26,26 @@ body {
 .logoimg {
   width: 191px;
 }
-.search {
+
+/*.search {
   border: 1px solid grey;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-}
+}*/
 
-header .search {
+/*header .search {
   justify-content: center;
   align-items: center;
-}
+}*/
 
-div .font {
+ul {
   display: flex;
-  justify-content: flex-end;
-
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-header .font:nth-child(2) {
-  margin: 0px 10px;
+
+li {
+  margin-left: 10px;
 }
