@@ -117,17 +117,20 @@ main section {
   flex-direction: row;
 }
 
-main .firstimg {
+section .firstimg {
   margin-top: 30px;
+  width: 50%;
   flex: 2;
 }
 
-main .secondimg {
+section .secondimg {
   margin-top: 30px;
+  width: 20%;
   flex: 1;
 }
 
-main .thirdimg {
+section .thirdimg {
   margin-top: 30px;
+  width: 20%;
   flex: 1;
 }
