@@ -1,4 +1,7 @@
 /*GENERAL---*/
+div {
+  box-sizing: border-box;
+}
 
 header {
   display: flex;
@@ -135,13 +138,13 @@ section .second {
 }
 section .second .scooter {
   border: 5px solid red;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
 section .second .eiffel {
   border: 5px solid yellow;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
