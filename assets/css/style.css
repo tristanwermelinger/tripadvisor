@@ -1,5 +1,5 @@
 /*GENERAL---*/
-div {
+* {
   box-sizing: border-box;
 }
 
@@ -118,34 +118,45 @@ main nav {
 main section {
   display: flex;
   flex-direction: row;
-  border: 5px solid rgb(255, 0, 132);
-  height: 430px;
+  /*border: 5px solid rgb(36, 98, 122);*/
+  height: 100%;
+  width: 100%;
   margin-top: 30px;
+  gap: 10px;
 }
 
-/*section .first {
-  flex: 1;
-}*/
-section .first img {
-  border: 5px solid black;
-  width: 100%;
+.first {
   height: 100%;
 }
 
-section .second {
-  border: 5px solid green;
-  width: 480px;
-}
-section .second .scooter {
-  border: 5px solid red;
-  height: 50%;
+section .first img {
+  /*border: 5px solid black;*/
   width: 100%;
+  height: 100%;
+  flex: 1;
 }
 
-section .second .eiffel {
-  border: 5px solid yellow;
-  height: 50%;
+section div .second {
+  /*border: 5px solid green;*/
+  display: flex;
   width: 100%;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+section div .second .scooter img {
+  /*border: 5px solid red;*/
+  height: 100%;
+  width: 100%;
+  align-items: start;
+}
+
+section div .second .eiffel img {
+  /*border: 5px solid yellow;*/
+  height: 100%;
+  width: 100%;
+  align-items: end;
 }
 
 /*section .firstimg img {
