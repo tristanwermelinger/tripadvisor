@@ -115,9 +115,34 @@ main nav {
 main section {
   display: flex;
   flex-direction: row;
+  /*border: 1px solid red;*/
+  height: 430px;
 }
 
-section .firstimg img {
+section .first {
+  flex: 1;
+}
+section .first img {
+  width: 100%;
+  height: 100%;
+}
+
+section .second {
+  border: 1px solid green;
+}
+section .second .scooter {
+  border: 5px solid red;
+  height: 50%;
+  width: 100%;
+}
+
+section .second .eiffel {
+  border: 5px solid yellow;
+  height: 50%;
+  width: 100%;
+}
+
+/*section .firstimg img {
   margin-top: 30px;
   width: 500x;
   flex: 2;
@@ -133,4 +158,4 @@ section .thirdimg img {
   margin-top: 30px;
   width: 200px;
   flex: 1;
-}
+}*/
