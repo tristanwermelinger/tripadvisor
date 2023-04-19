@@ -1,0 +1,120 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: TS-Reg, sans-serif;
+}
+.container {
+  width: 1135px;
+  margin: 0 auto;
+}
+button {
+  /* Pour hériter de la taille et de la police du parent  */
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --HEADER ----------- */
+header {
+  height: 60px;
+  /* border: 1px solid red; */
+}
+header > div {
+  height: 100%;
+  /* border: 1px black solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  /* border: 1px red solid; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* Tous les enfants de nav qui est dans header */
+/* header nav * {
+  color: red;
+  padding: 7px 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+} */
+
+/* header nav a,
+header nav button { */
+header nav :is(a, button) {
+  padding: 7px 10px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+
+header img {
+  height: 40px;
+}
+header button {
+  /* background-color: black; */
+  color: white;
+}
+header a:hover {
+  background-color: #c3bebe;
+}
+header button:hover {
+  opacity: 0.5;
+  /* background-color: rgba(0, 0, 0, 0.597); */
+}
+/* -- MAIN ----------------- */
+
+.menu {
+  /* border: 1px solid red; */
+  /* height: 30px; */
+  display: flex;
+  gap: 10px;
+}
+.menu div {
+  border: 1px black solid;
+  width: calc((100% - 50px) / 6);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Pictures Bloc */
+
+.picturesBloc {
+  border: 1px solid black;
+  height: 430px;
+  display: flex;
+  /* Espace entre les enfants */
+  gap: 2px;
+}
+
+.picturesBloc div:first-child {
+  /* background-color: blue; */
+  height: 100%;
+  flex: 1;
+}
+.picturesBloc div:last-child {
+  /* background-color: green; */
+  height: 100%;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.picturesBloc img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.picturesBloc div:last-child div {
+  /* border: 1px solid red; */
+  height: calc((100% - 2px) / 2);
+}
